@@ -203,11 +203,11 @@ class App extends Component {
     this.state = { 
       router: createBrowserRouter([
         {
-          path: "/",
+          path: "PokeDex/",
           element: <PokeDex />,
         },
         {
-          path: "pokemon/:pokemonId",
+          path: "PokeDex/pokemon/:pokemonId/",
           element: <About />,
         },
       ])
